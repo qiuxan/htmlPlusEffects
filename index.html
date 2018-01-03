@@ -22,6 +22,8 @@
 	
 		<script type="text/javascript" src="js/respond.js"></script>
 		
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -49,10 +51,10 @@
 								<span class="icon-bar"></span>
 							</button>
 
-							<a href="#" class="logo"><img src="img/logo.png" alt="logo"/></a>
+							<a href="#" class="logo animated fadeInLeft"><img src="img/logo.png" alt="logo"/></a>
 
 						</div> <!--navbar header-->
-						<div class="navbar-collapse collapse">
+						<div class="navbar-collapse collapse animated fadeInRight">
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="#">Home</a></li>
 								<li><a href="#">Services</a></li>
@@ -120,15 +122,16 @@
 			<div class="services-content">
 				
 				<div class="container">
-					<div class="row">
-						
+					<div class="row"> 
 						<div class="col-md-4">
-							
-							<p><i class="fa fa-laptop"></i></p>
-							<h3>Web Design</h3>
-							<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-							
-						</div>
+							<div class="services-content animation" data-animation="fadeInLeft">
+
+								<p><i class="fa fa-laptop"></i></p>
+								<h3>Web Design</h3>
+								<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+								</div>
+							</div>
+						
 						<div class="col-md-4">
 							
 							<p><i class="fa fa-edit"></i></p>
@@ -597,6 +600,6 @@
 	
 	
 		<script type="text/javascript" src="js/main.js"></script>
-		
+		<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	</body>
 </html>
