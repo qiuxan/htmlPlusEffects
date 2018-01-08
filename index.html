@@ -8,6 +8,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		
 		
+		<!-- 		page load -->
+
+		<script src="js/pace.js"></script>
+		<link href="css/pace-theme.css" rel="stylesheet" />
+		
 		<!-- 	using google fonts  -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
 		
@@ -24,7 +29,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="css/animate.css"><!-- third party plug-in -->
 		
-		<link rel="stylesheet" type="text/css" href="css/animation.css">
+		<link rel="stylesheet" type="text/css" href="css/animation-without-delay.css">
 		
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		
@@ -38,594 +43,597 @@
 		<!-- css styles -->
 	</head>
 	<body>
+		<div class="entire-content">
 	<!-- body content -->
-		<header class="site-header" role="banner">
+			<header class="site-header" role="banner" >
+				
+				<div class="navbar-wrapper">
+					<div class="navbar navbar-inverse navbar-fixed-top transparent" role="navigation">
+						
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+	
+								<a href="#" class="logo animated fadeInLeft"><img src="img/logo.png" alt="logo"/></a>
+	
+							</div> <!--navbar header-->
+							<div class="navbar-collapse collapse animated fadeInRight">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="#home">Home</a></li>
+									<li><a href="#services">Services</a></li>
+									<li><a href="#portfolio">Our Works</a></li>
+									<li><a href="#team">Team</a></li>
+									<li><a href="#testimonials">Testimonials</a></li>
+									<li><a href="#contact">Contact</a></li>
+							
+								</ul>
+								
+							</div> <!--navbar collapse-->
+							
+						</div> <!--container-->
+					</div> <!--navbar-->
+				</div> <!--navbar wrapper end-->
+				
+				
+	
+			</header>
 			
-			<div class="navbar-wrapper">
-				<div class="navbar navbar-inverse navbar-fixed-top transparent" role="navigation">
+			
+		<!-- 	slider start here -->
+		
+			<section class="slider" id="home">
+				<ul class="slider-carousel" id="slider-carousel">
+					<li class="img1">
+						<h1>Welcome to <span class="primary">Corporate</span></h1>
+						<p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
+						<a href="#" class="primary-bg cta1" >Get Started</a><a href="#"  class="secondary-sky-blue-bg cta2">Contact Us</a>
+					</li>
+					
+					<li class="img1">
+						<h1>Welcome to <span class="primary">Corporate</span></h1>
+						<p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
+						<a href="#" class="primary-bg cta1" >Get Started</a><a href="#"  class="secondary-sky-blue-bg cta2">Contact Us</a>
+					</li>
+					
+					<li class="img1">
+						<h1>Welcome to <span class="primary">Corporate</span></h1>
+						<p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
+						<a href="#" class="primary-bg cta1" >Get Started</a><a href="#"  class="secondary-sky-blue-bg cta2">Contact Us</a>
+					</li>
+				</ul>
+				<ul class="sliderpager">
+					<li><a href="#"><i class="fa fa-circle"></i></a></li>
+					<li><a href="#"><i class="fa fa-circle"></i></a></li>
+					<li><a href="#"><i class="fa fa-circle"></i></a></li>
+				
+					
+				</ul>
+				
+			</section>
+			<!-- 	slider ends here -->
+		
+		
+		
+	<!-- 		service section starts here -->
+			<section class="services section-padding" id="services">
+				<div class="animation" data-animation="fadeIn">
+					<div class="services-header">
+						<h1>Services</h1>
+						<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+					</div>
+				</div>
+				<div class="services-content">
 					
 					<div class="container">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-
-							<a href="#" class="logo animated fadeInLeft"><img src="img/logo.png" alt="logo"/></a>
-
-						</div> <!--navbar header-->
-						<div class="navbar-collapse collapse animated fadeInRight">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Our Works</a></li>
-								<li><a href="#">Team</a></li>
-								<li><a href="#">Testimonials</a></li>
-								<li><a href="#">Contact</a></li>
+						<div class="row"> 
+							<div class="col-md-4">
+								<div class="services-content animation" data-animation="fadeInLeft">
+	
+									<p><i class="fa fa-laptop"></i></p>
+									<h3>Web Design</h3>
+									<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+									</div>
+								</div>
+							
+							<div class="col-md-4">
+								<div class="services-content animation" data-animation="fadeInLeft">								<p><i class="fa fa-edit"></i></p>
+									<h3>Web Design</h3>
+									<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="services-content animation" data-animation="fadeInLeft">
+									<p><i class="fa fa-cog"></i></p>
+									<h3>Web Design</h3>
+									<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+								</div>
+							</div>
+						</div>
 						
+						<br/>
+						<div class="row">
+							
+							<div class="col-md-4">
+								<div class="services-content animation" data-animation="fadeInLeft">
+									<p><i class="fa fa-bars"></i></p>
+									<h3>Web Design</h3>
+									<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+								</div>
+								
+							</div>
+							<div class="col-md-4">
+								<div class="services-content animation" data-animation="fadeInLeft">
+									<p><i class="fa fa-leaf"></i></p>
+									<h3>Web Design</h3>
+									<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="services-content animation" data-animation="fadeInLeft">
+									<p><i class="fa fa-globe"></i></p>
+									<h3>Web Design</h3>
+									<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</section>
+			
+			
+	<!-- 		service section ends here -->
+	
+	
+	
+	<!-- portfolio starts here -->
+			
+			<section class="portfolio section-padding" id="portfolio">
+				<div class="animation" data-animation="fadeIn">
+					
+					<div class="portfolio-header">
+						<h1 class="white">Our Works</h1>
+						<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+										
+					</div> <!-- end of div.portfolio-header -->
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="animation" data-animation="fadeInUp">
+							<ul class="portfolio-carousel">
+								<li>
+									<div class="inner-content">
+										<img src="img/portfolio/project1" alt="">
+										<div class="overlay-content">
+											<h3>Environment Website</h3>
+											<p><a href="#">Click Here </a>for details</p>
+										
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/portfolio/project2" alt="">
+										<div class="overlay-content">
+											<h3>Environment Website</h3>
+											<p><a href="#">Click Here </a>for details</p>
+										
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/portfolio/project3" alt="">
+										<div class="overlay-content">
+											<h3>Environment Website</h3>
+											<p><a href="#">Click Here </a>for details</p>
+										
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/portfolio/project4" alt="">
+										<div class="overlay-content">
+											<h3>Environment Website</h3>
+											<p><a href="#">Click Here </a>for details</p>
+										
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/portfolio/project2" alt="">
+										<div class="overlay-content">
+											<h3>Environment Website</h3>
+											<p><a href="#">Click Here </a>for details</p>
+										
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/portfolio/project1" alt="">
+										<div class="overlay-content">
+											<h3>Environment Website</h3>
+											<p><a href="#">Click Here </a>for details</p>
+										
+										</div>
+									</div>
+								</li>
 							</ul>
 							
-						</div> <!--navbar collapse-->
-						
-					</div> <!--container-->
-				</div> <!--navbar-->
-			</div> <!--navbar wrapper end-->
-			
-			
-
-		</header>
-		
-		
-	<!-- 	slider start here -->
+							<ul class="portfolio-nav">
+								
+								<li id="prev">&lt;</li>
+								<li id="next">&gt;</li>
+							</ul>
+						</div> <!-- end of the animation div -->
+					</div> <!--end of row-->
+				</div> <!--end of container-->
 	
-		<section class="slider">
-			<ul class="slider-carousel" id="slider-carousel">
-				<li class="img1">
-					<h1>Welcome to <span class="primary">Corporate</span></h1>
-					<p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
-					<a href="#" class="primary-bg cta1" >Get Started</a><a href="#"  class="secondary-sky-blue-bg cta2">Contact Us</a>
-				</li>
 				
-				<li class="img1">
-					<h1>Welcome to <span class="primary">Corporate</span></h1>
-					<p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
-					<a href="#" class="primary-bg cta1" >Get Started</a><a href="#"  class="secondary-sky-blue-bg cta2">Contact Us</a>
-				</li>
 				
-				<li class="img1">
-					<h1>Welcome to <span class="primary">Corporate</span></h1>
-					<p>It is a long established fact that a reader will be distracted by the readable<br/>content of a page when looking at its layout</p>
-					<a href="#" class="primary-bg cta1" >Get Started</a><a href="#"  class="secondary-sky-blue-bg cta2">Contact Us</a>
-				</li>
-			</ul>
-			<ul class="sliderpager">
-				<li><a href="#"><i class="fa fa-circle"></i></a></li>
-				<li><a href="#"><i class="fa fa-circle"></i></a></li>
-				<li><a href="#"><i class="fa fa-circle"></i></a></li>
+			</section>
+	
+	
+	<!-- portfolio ends here -->
+	
+	<!-- team starts here -->
+	
 			
+			<section class="team section-padding" id="team">
 				
-			</ul>
-			
-		</section>
-		<!-- 	slider ends here -->
-	
-	
-	
-<!-- 		service section starts here -->
-		<section class="services section-padding">
-			<div class="animation" data-animation="fadeIn">
-				<div class="services-header">
-					<h1>Services</h1>
-					<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-				</div>
-			</div>
-			<div class="services-content">
+				<div class="team-header">
+					
+					<div class="animation" data-animation="fadeIn">
+						<h1>Our Team</h1>
+						<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+					</div>	<!-- end of div.animation		 -->	
+				</div> <!-- end of div.portfolio-header -->
 				
 				<div class="container">
-					<div class="row"> 
-						<div class="col-md-4">
-							<div class="services-content animation" data-animation="fadeInLeft">
-
-								<p><i class="fa fa-laptop"></i></p>
-								<h3>Web Design</h3>
-								<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-								</div>
-							</div>
-						
-						<div class="col-md-4">
-							<div class="services-content animation" data-animation="fadeInLeft">								<p><i class="fa fa-edit"></i></p>
-								<h3>Web Design</h3>
-								<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="services-content animation" data-animation="fadeInLeft">
-								<p><i class="fa fa-cog"></i></p>
-								<h3>Web Design</h3>
-								<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-							</div>
-						</div>
-					</div>
-					
-					<br/>
 					<div class="row">
 						
-						<div class="col-md-4">
-							<div class="services-content animation" data-animation="fadeInLeft">
-								<p><i class="fa fa-bars"></i></p>
-								<h3>Web Design</h3>
-								<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-							</div>
-							
-						</div>
-						<div class="col-md-4">
-							<div class="services-content animation" data-animation="fadeInLeft">
-								<p><i class="fa fa-leaf"></i></p>
-								<h3>Web Design</h3>
-								<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="services-content animation" data-animation="fadeInLeft">
-								<p><i class="fa fa-globe"></i></p>
-								<h3>Web Design</h3>
-								<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</section>
-		
-		
-<!-- 		service section ends here -->
-
-
-
-<!-- portfolio starts here -->
-		
-		<section class="portfolio section-padding">
-			<div class="animation" data-animation="fadeIn">
-				
-				<div class="portfolio-header">
-					<h1 class="white">Our Works</h1>
-					<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-									
-				</div> <!-- end of div.portfolio-header -->
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="animation" data-animation="fadeInUp">
-						<ul class="portfolio-carousel">
-							<li>
-								<div class="inner-content">
-									<img src="img/portfolio/project1" alt="">
-									<div class="overlay-content">
-										<h3>Environment Website</h3>
-										<p><a href="#">Click Here </a>for details</p>
-									
+						<div class="animation" data-animation="zoomIn">
+							<ul class="team-carousel">
+								<li>
+									<div class="inner-content">
+										<img src="img/team/member1.png" alt="">
+										<div class="overlay-content white">
+											<p class="name primary bold">John Doe</p>
+											<p class="poistion secondary-sky-blue bold">Web Developer</p>
+											<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+											<ul class="member-social-links">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										
+										</div>
 									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/portfolio/project2" alt="">
-									<div class="overlay-content">
-										<h3>Environment Website</h3>
-										<p><a href="#">Click Here </a>for details</p>
-									
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/team/member2.png" alt="">
+										<div class="overlay-content white">
+											<p class="name primary bold">John Doe</p>
+											<p class="poistion secondary-sky-blue bold">Web Developer</p>
+											<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+											<ul class="member-social-links">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										
+										</div>
 									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/portfolio/project3" alt="">
-									<div class="overlay-content">
-										<h3>Environment Website</h3>
-										<p><a href="#">Click Here </a>for details</p>
-									
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/team/member3.png" alt="">
+										<div class="overlay-content white">
+											<p class="name primary bold">John Doe</p>
+											<p class="poistion secondary-sky-blue bold">Web Developer</p>
+											<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+											<ul class="member-social-links">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										
+										</div>
 									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/portfolio/project4" alt="">
-									<div class="overlay-content">
-										<h3>Environment Website</h3>
-										<p><a href="#">Click Here </a>for details</p>
-									
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/team/member4.png" alt="">
+										<div class="overlay-content white">
+											<p class="name primary bold">John Doe</p>
+											<p class="poistion secondary-sky-blue bold">Web Developer</p>
+											<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+											<ul class="member-social-links">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										
+										</div>
 									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/portfolio/project2" alt="">
-									<div class="overlay-content">
-										<h3>Environment Website</h3>
-										<p><a href="#">Click Here </a>for details</p>
-									
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/team/member2.png" alt="">
+										<div class="overlay-content white">
+											<p class="name primary bold">John Doe</p>
+											<p class="poistion secondary-sky-blue bold">Web Developer</p>
+											<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+											<ul class="member-social-links">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										
+										</div>
 									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/portfolio/project1" alt="">
-									<div class="overlay-content">
-										<h3>Environment Website</h3>
-										<p><a href="#">Click Here </a>for details</p>
-									
+								</li>
+								
+								<li>
+									<div class="inner-content">
+										<img src="img/team/member1.png" alt="">
+										<div class="overlay-content white">
+											<p class="name primary bold">John Doe</p>
+											<p class="poistion secondary-sky-blue bold">Web Developer</p>
+											<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+											<ul class="member-social-links">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										
+										</div>
 									</div>
-								</div>
-							</li>
-						</ul>
-						
-						<ul class="portfolio-nav">
-							
-							<li id="prev">&lt;</li>
-							<li id="next">&gt;</li>
-						</ul>
-					</div> <!-- end of the animation div -->
-				</div> <!--end of row-->
-			</div> <!--end of container-->
-
-			
-			
-		</section>
-
-
-<!-- portfolio ends here -->
-
-<!-- team starts here -->
-
-		
-		<section class="team section-padding">
-			
-			<div class="team-header">
-				
-				<div class="animation" data-animation="fadeIn">
-					<h1>Our Team</h1>
-					<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-				</div>	<!-- end of div.animation		 -->	
-			</div> <!-- end of div.portfolio-header -->
-			
-			<div class="container">
-				<div class="row">
-					
-					<div class="animation" data-animation="zoomIn">
-						<ul class="team-carousel">
-							<li>
-								<div class="inner-content">
-									<img src="img/team/member1.png" alt="">
-									<div class="overlay-content white">
-										<p class="name primary bold">John Doe</p>
-										<p class="poistion secondary-sky-blue bold">Web Developer</p>
-										<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-										<ul class="member-social-links">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul>
-									
-									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/team/member2.png" alt="">
-									<div class="overlay-content white">
-										<p class="name primary bold">John Doe</p>
-										<p class="poistion secondary-sky-blue bold">Web Developer</p>
-										<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-										<ul class="member-social-links">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul>
-									
-									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/team/member3.png" alt="">
-									<div class="overlay-content white">
-										<p class="name primary bold">John Doe</p>
-										<p class="poistion secondary-sky-blue bold">Web Developer</p>
-										<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-										<ul class="member-social-links">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul>
-									
-									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/team/member4.png" alt="">
-									<div class="overlay-content white">
-										<p class="name primary bold">John Doe</p>
-										<p class="poistion secondary-sky-blue bold">Web Developer</p>
-										<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-										<ul class="member-social-links">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul>
-									
-									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/team/member2.png" alt="">
-									<div class="overlay-content white">
-										<p class="name primary bold">John Doe</p>
-										<p class="poistion secondary-sky-blue bold">Web Developer</p>
-										<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-										<ul class="member-social-links">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul>
-									
-									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="inner-content">
-									<img src="img/team/member1.png" alt="">
-									<div class="overlay-content white">
-										<p class="name primary bold">John Doe</p>
-										<p class="poistion secondary-sky-blue bold">Web Developer</p>
-										<p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-										<ul class="member-social-links">
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										</ul>
-									
-									</div>
-								</div>
-							</li>
-						</ul>
-						
-						<ul class="team-nav">
-							
-							<li id="team-prev">&lt;</li>
-							<li id="team-next">&gt;</li>
-						</ul>
-					</div> <!-- end of div.animation -->
-				</div> <!--end of row-->
-			</div> <!--end of container-->
-
-			
-			
-		</section>
-
-
-
-<!-- team ends here -->
-
-
-<!-- testimonials section start  -->
-		
-		<section class="testimonials section-padding center animation" data-animation="fadeInUp">
-			<div class="testimonials-header">
-				<h1 class="white">Client Testimonials</h1>
-				<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-			</div> <!-- end of div.testimonials-header -->
-				
-				
-			<ul class="testimonials-carousel">
-				<li>
-					<img src="img/team/member3.png" alt="">
-					<p class="name">John Doe</p>
-					<p class="position">Web Developer</p>
-					<blockquote>
-						<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-					</blockquote>
-				</li>
-				
-				<li>
-					<img src="img/team/member3.png" alt="">
-					<p class="name">John Doe</p>
-					<p class="position">Web Developer</p>
-					<blockquote>
-						<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-					</blockquote>
-				</li>
-				
-				<li>
-					<img src="img/team/member3.png" alt="">
-					<p class="name">John Doe</p>
-					<p class="position">Web Developer</p>
-					<blockquote>
-						<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-					</blockquote>
-				</li>
-				
-				<li>
-					<img src="img/team/member3.png" alt="">
-					<p class="name">John Doe</p>
-					<p class="position">Web Developer</p>
-					<blockquote>
-						<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-					</blockquote>
-				</li>
-				
-				<li>
-					<img src="img/team/member3.png" alt="">
-					<p class="name">John Doe</p>
-					<p class="position">Web Developer</p>
-					<blockquote>
-						<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-					</blockquote>
-				</li>
-			</ul>	
-			
-			<ul class="testipager">
-				<li><a href="#"><i class="fa fa-circle"></i></a></li>
-				<li><a href="#"><i class="fa fa-circle"></i></a></li>
-				<li><a href="#"><i class="fa fa-circle"></i></a></li>
-		
-			
-			</ul>
-	
-		</section>
-<!-- testimonials section ends -->
-
-<!-- blog section starts -->
-
-		<section class="section-padding blog">
-			<div class="blog-header center">
-				<h1 class="">Recent Post from the blog</h1>
-				<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-			</div> <!-- end of div.blog-header -->
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						
-						<div class="animation" data-animation="fadeInLeft">
-							<img src="img/blog/post1.png" alt="post1" class="img-responsive">
-							<h3 class="post-name"> <a href="" class="secondary-sky-blue">Water Flowing</a></h3>
-							<p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
-							<p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
-					
-					
-						</div>
-					</div>
-					
-					
-					<div class="col-md-4">
-						<div class="animation" data-animation="fadeInLeft">
-							<img src="img/blog/post2.png" alt="post2" class="img-responsive">
-							<h3 class="post-name"> <a href="" class="secondary-sky-blue">Water Flowing</a></h3>
-							<p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
-							<p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
-						</div>
-					</div>
-					
-					
-					<div class="col-md-4">
-						<div class="animation" data-animation="fadeInLeft">
-						
-							<img src="img/blog/post3.png" alt="post3" class="img-responsive">
-													
-							<h3 class="post-name"> <a href="" class="secondary-sky-blue">Water Flowing</a></h3>
-							<p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
-							<p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
-						</div>						
-					</div>
-				</div>
-			</div>
-		</section>
-<!-- blog section ends -->
-
-<!-- contact section ends -->
-		<section class="section-padding contact">
-			
-			<div class="contact-header center">
-				<h1 class="white">Contact Us</h1>
-				<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
-			</div> <!-- end of div.contact-header -->
-			
-			<form class="contact-form animation" action="" data-animation="zoomIn">
-				
-				<fieldset>
-					<input type="text" id="name" placeholder="Name">
-				</fieldset>
-				
-				<fieldset>
-					<input type="email" id="email" placeholder="Email">
-				</fieldset>
-				
-				<fieldset>
-					<input type="text" id="subject" placeholder="Subject">
-				</fieldset>
-				
-				<fieldset>
-					<textarea name="message" rows="7" cols="30" placeholder="Message" id="message"></textarea>
-				</fieldset>
-				
-				<fieldset>
-					<input type="submit" id="submit" value="Submit">
-				</fieldset>
-			</form>
-
-			
-		</section>
-<!-- contact section ends -->
-
-	<!--footer starts here-->
-
-		<footer>
-			<div class="container section-padding">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="animation" data-animation="fadeInLeft">
-
-							<h1>About XXX company</h1>
-							<p class="about">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages</p>
-							<p><i class="fa fa-envelope"></i><span class="contact-email">xxxx@gmail.com</span></p>
-							<p><i class="fa fa-mobile"></i><span class="contact-phone">04xxxxxxxx</span></p>
-							<p><i class="fa fa-location-arrow"></i><span class="contact-location">1 xxx st,xxx,xxx,xxxx </span></p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="animation" data-animation="fadeInLeft">
-							<h1>Get blog updated</h1>
-							<form action="" class="update-form">
-								<fieldset><input type="text" id="take-email" placeholder="Enter your email here"/></fieldset>
-								<fieldset><input type="submit" id="submit-button" value="Sign Up"/></fieldset>
-							</form>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="animation" data-animation="fadeInLeft">
-							<h1>Stay in touch</h1>
-							<ul class="footer-social-links">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								</li>
 							</ul>
+							
+							<ul class="team-nav">
+								
+								<li id="team-prev">&lt;</li>
+								<li id="team-next">&gt;</li>
+							</ul>
+						</div> <!-- end of div.animation -->
+					</div> <!--end of row-->
+				</div> <!--end of container-->
+	
+				
+				
+			</section>
+	
+	
+	
+	<!-- team ends here -->
+	
+	
+	<!-- testimonials section start  -->
+			
+			<section class="testimonials section-padding center animation" data-animation="fadeInUp" id="testimonials">
+				<div class="testimonials-header">
+					<h1 class="white">Client Testimonials</h1>
+					<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+				</div> <!-- end of div.testimonials-header -->
+					
+					
+				<ul class="testimonials-carousel">
+					<li>
+						<img src="img/team/member3.png" alt="">
+						<p class="name">John Doe</p>
+						<p class="position">Web Developer</p>
+						<blockquote>
+							<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
+						</blockquote>
+					</li>
+					
+					<li>
+						<img src="img/team/member3.png" alt="">
+						<p class="name">John Doe</p>
+						<p class="position">Web Developer</p>
+						<blockquote>
+							<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
+						</blockquote>
+					</li>
+					
+					<li>
+						<img src="img/team/member3.png" alt="">
+						<p class="name">John Doe</p>
+						<p class="position">Web Developer</p>
+						<blockquote>
+							<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
+						</blockquote>
+					</li>
+					
+					<li>
+						<img src="img/team/member3.png" alt="">
+						<p class="name">John Doe</p>
+						<p class="position">Web Developer</p>
+						<blockquote>
+							<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
+						</blockquote>
+					</li>
+					
+					<li>
+						<img src="img/team/member3.png" alt="">
+						<p class="name">John Doe</p>
+						<p class="position">Web Developer</p>
+						<blockquote>
+							<i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
+						</blockquote>
+					</li>
+				</ul>	
+				
+				<ul class="testipager">
+					<li><a href="#"><i class="fa fa-circle"></i></a></li>
+					<li><a href="#"><i class="fa fa-circle"></i></a></li>
+					<li><a href="#"><i class="fa fa-circle"></i></a></li>
+			
+				
+				</ul>
+		
+			</section>
+	<!-- testimonials section ends -->
+	
+	<!-- blog section starts -->
+	
+			<section class="section-padding blog">
+				<div class="blog-header center">
+					<h1 class="">Recent Post from the blog</h1>
+					<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+				</div> <!-- end of div.blog-header -->
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							
+							<div class="animation" data-animation="fadeInLeft">
+								<img src="img/blog/post1.png" alt="post1" class="img-responsive">
+								<h3 class="post-name"> <a href="" class="secondary-sky-blue">Water Flowing</a></h3>
+								<p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
+								<p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
+						
+						
+							</div>
+						</div>
+						
+						
+						<div class="col-md-4">
+							<div class="animation" data-animation="fadeInLeft">
+								<img src="img/blog/post2.png" alt="post2" class="img-responsive">
+								<h3 class="post-name"> <a href="" class="secondary-sky-blue">Water Flowing</a></h3>
+								<p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
+								<p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
+							</div>
+						</div>
+						
+						
+						<div class="col-md-4">
+							<div class="animation" data-animation="fadeInLeft">
+							
+								<img src="img/blog/post3.png" alt="post3" class="img-responsive">
+														
+								<h3 class="post-name"> <a href="" class="secondary-sky-blue">Water Flowing</a></h3>
+								<p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
+								<p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
+							</div>						
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<p class="copyright">Copyright &copy; @ <span class="primary"> xxx </span>2017 . All Rights Reserved.</p>
-		</footer>
-
-	<!--footer ends here-->
-
-
-
-	<!-- javascripts -->
+			</section>
+	<!-- blog section ends -->
 	
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
-	<!-- 	main js -->
+	<!-- contact section ends -->
+			<section class="section-padding contact" id="contact">
+				
+				<div class="contact-header center">
+					<h1 class="white">Contact Us</h1>
+					<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
+				</div> <!-- end of div.contact-header -->
+				
+				<form class="contact-form animation" action="" data-animation="zoomIn">
+					
+					<fieldset>
+						<input type="text" id="name" placeholder="Name">
+					</fieldset>
+					
+					<fieldset>
+						<input type="email" id="email" placeholder="Email">
+					</fieldset>
+					
+					<fieldset>
+						<input type="text" id="subject" placeholder="Subject">
+					</fieldset>
+					
+					<fieldset>
+						<textarea name="message" rows="7" cols="30" placeholder="Message" id="message"></textarea>
+					</fieldset>
+					
+					<fieldset>
+						<input type="submit" id="submit" value="Submit">
+					</fieldset>
+				</form>
+	
+				
+			</section>
+	<!-- contact section ends -->
+	
+		<!--footer starts here-->
+	
+			<footer>
+				<div class="container section-padding">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="animation" data-animation="fadeInLeft">
+	
+								<h1>About XXX company</h1>
+								<p class="about">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages</p>
+								<p><i class="fa fa-envelope"></i><span class="contact-email">xxxx@gmail.com</span></p>
+								<p><i class="fa fa-mobile"></i><span class="contact-phone">04xxxxxxxx</span></p>
+								<p><i class="fa fa-location-arrow"></i><span class="contact-location">1 xxx st,xxx,xxx,xxxx </span></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="animation" data-animation="fadeInLeft">
+								<h1>Get blog updated</h1>
+								<form action="" class="update-form">
+									<fieldset><input type="text" id="take-email" placeholder="Enter your email here"/></fieldset>
+									<fieldset><input type="submit" id="submit-button" value="Sign Up"/></fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="animation" data-animation="fadeInLeft">
+								<h1>Stay in touch</h1>
+								<ul class="footer-social-links">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<p class="copyright">Copyright &copy; @ <span class="primary"> xxx </span>2017 . All Rights Reserved.</p>
+			</footer>
+	
+		<!--footer ends here-->
 	
 	
-		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	
+		<!-- javascripts -->
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+		<!-- 	main js -->
+		
+		
+			<script type="text/javascript" src="js/main.js"></script>
+			<script type="text/javascript" src="js/smoothscroll.js"></script>
+			<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+		</div>
 	</body>
 </html>

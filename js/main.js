@@ -167,7 +167,9 @@ $('.team-carousel').carouFredSel({
 		
 	});
 
+// 	smooth scroll here
 
+	$('a').smoothScroll();
 	
 });
 
