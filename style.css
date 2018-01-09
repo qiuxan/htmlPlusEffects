@@ -137,6 +137,18 @@ header nav ul li a:hover{
 	background-size: 100% 100%;
 }
 
+.img2{
+	
+	background: url(img/slider/slider2.png);
+	background-size: 100% 100%;
+}
+
+.img3{
+	
+	background: url(img/slider/slider3.png);
+	background-size: 100% 100%;
+}
+
 /* buttoms hover event */
 
 
