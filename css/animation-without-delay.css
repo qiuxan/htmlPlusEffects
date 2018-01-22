@@ -11,6 +11,11 @@
 .container {
 	overflow: hidden;
 }
+
+header .container{
+	
+	overflow: visible;
+}
 /*
 .services-content .row .col-md-4:nth-child(1) .animation
 {

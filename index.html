@@ -65,11 +65,40 @@
 							<div class="navbar-collapse collapse animated fadeInRight">
 								<ul class="nav navbar-nav navbar-right">
 									<li><a href="#home">Home</a></li>
-									<li><a href="#services">Services</a></li>
-									<li><a href="#portfolio">Our Works</a></li>
+									<li><a href="#services">Services</a>
+										<div class="dropdown-content">
+											<ul>
+												<li><a href="#">Service1</a></li>
+												<li><a href="#">Service2</a></li>
+												<li><a href="#">Service3</a></li>
+												<li><a href="#">Service4</a></li>
+											</ul>
+										</div>
+									
+									</li>
+									<li><a href="#portfolio">Our Works</a>
+										<div class="dropdown-content">
+											<ul>
+												<li><a href="#">Work1</a></li>
+												<li><a href="#">Work2</a></li>
+												<li><a href="#">Work3</a></li>
+												<li><a href="#">Work4</a></li>
+											</ul>
+										</div>
+									</li>
 									<li><a href="#team">Team</a></li>
-									<li><a href="#testimonials">Testimonials</a></li>
+									<li><a href="#testimonials">Testimonials</a>
+										<div class="dropdown-content">
+											<ul>
+												<li><a href="#">Testimonial1</a></li>
+												<li><a href="#">Testimonial2</a></li>
+												<li><a href="#">Testimonial3</a></li>
+												<li><a href="#">Testimonial4</a></li>
+											</ul>
+										</div>
+									</li>
 									<li><a href="#contact">Contact</a></li>
+									
 							
 								</ul>
 								
@@ -552,10 +581,10 @@
 					<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
 				</div> <!-- end of div.contact-header -->
 				
-				<form class="contact-form animation" action="" data-animation="zoomIn">
+				<form class="contact-form animation" action="contact.php" data-animation="zoomIn" method="post">
 					
 					<fieldset>
-						<input type="text" id="name" placeholder="Name">
+						<input name="user_name" type="text" id="name" placeholder="Name">
 					</fieldset>
 					
 					<fieldset>
@@ -574,6 +603,7 @@
 						<input type="submit" id="submit" value="Submit">
 					</fieldset>
 				</form>
+				<div class="result"></div>
 	
 				
 			</section>
