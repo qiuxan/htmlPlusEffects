@@ -105,6 +105,14 @@ header nav ul li a:hover{
 }
 
 
+header .navbar-inverse .navbar-nav>.active>a, header .navbar-inverse .navbar-nav>.active>a:focus, header .navbar-inverse .navbar-nav>.active>a:hover{
+	
+	color: #e74c3c;
+	background: none;
+}
+
+
+
 /* header css ends here */
 
 
@@ -807,3 +815,4 @@ p.copyright{
 	margin:0 0 0 0;
 }
 /*footer style ends here*/
+
