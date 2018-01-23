@@ -63,6 +63,7 @@ header nav ul li a:hover{
 	position: absolute;
 	top: 60px;
 	transition: all 0.3s ease-in;
+	 z-index:9999;
 	
 }
 
@@ -95,7 +96,7 @@ header nav ul li a:hover{
 	display: none;
 }
 
-.nav li:hover ul {
+.nav li:hover ul,.nav li:focus ul {
 	display: block;
 }
 

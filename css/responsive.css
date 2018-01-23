@@ -104,6 +104,86 @@
 
 @media screen and (max-width: 768px){
 	
+	
+	header .navbar-inverse .navbar-collapse, header .navbar-inverse .navbar-form{
+		
+		overflow: visible;
+		border: none;
+	}
+	.navbar-nav{
+		margin: 0 -15px;
+		width: 200px;
+		background-color: #34495e;
+
+	}
+	
+	
+	.dropdown-content{
+		
+		
+
+	background-color: #34495e;
+	width: 200px;
+	padding-left:20px;
+	position:absolute;
+	transition: all 0.3s ease-in;
+	 z-index:999;
+		
+	}
+	
+	.dropdown-content ul li{
+		
+		
+		
+		display: block;
+		
+		height: 40px;
+		
+		line-height: 40px;
+		
+		
+	}
+	
+	.dropdown-content ul li a{
+		
+		color: #fff;
+	}
+	
+	
+	.dropdown-content ul li a:hover{
+		
+		color: #e74c3c;
+	}
+	.dropdown-content ul{
+		
+		
+		display: none;
+	}
+	
+	.nav li:hover ul,.nav li:focus ul {
+		display: block;
+	}
+	
+	
+	.nav li:hover .dropdown-content {
+		top: 50px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	.logo img{
 		
 		margin-left: 10%;
